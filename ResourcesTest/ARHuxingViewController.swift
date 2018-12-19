@@ -25,11 +25,21 @@ public class ARHuxingViewController: UIViewController {
     }
     
     var arrowImage: UIImage{
-        let path = Bundle.main.path(forResource: "ResourcesTest", ofType: "bundle")
-        let bundle = Bundle(path: path!)
-        let file = bundle?.path(forResource: "add_icon@2x", ofType: "png")
-        return UIImage(contentsOfFile: file!)!
+    
+        let frameworkBundle = Bundle(for: ARHuxingViewController.self)
+        let bundleUrl = frameworkBundle.resourceURL?.appendingPathComponent("ResourcesTest.bundle")
+        let resourceBundle = Bundle(url: bundleUrl!)
+        let image = UIImage(named: "add_icon@2x", in: resourceBundle, compatibleWith: nil)
+        return image!
+        
+//        let path = Bundle.main.path(forResource: "ResourcesTest", ofType: "bundle")
+//        let bundle = Bundle(path: path!)
+//        let file = bundle?.path(forResource: "add_icon@2x", ofType: "png")
+//        return UIImage(contentsOfFile: file!)!
 //        return (UIImage.init(contentsOfFile: self.ResourcesTestBundle.path(forResource: "add_icon@2x", ofType: "png")!)?.withRenderingMode(UIImage.RenderingMode.alwaysTemplate))!
     }
+    
+    
+    
 }
 
