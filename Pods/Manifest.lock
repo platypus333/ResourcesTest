@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.8.0)
+  - HandyJSON (4.2.1)
+  - SnapKit (4.2.0)
+  - SSZipArchive (2.1.4)
+  - Tiercel (1.2.3)
+  - Toast-Swift (4.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON (~> 4.2.0)
+  - SnapKit
+  - SSZipArchive
+  - Tiercel
+  - Toast-Swift (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - HandyJSON
+    - SnapKit
+    - SSZipArchive
+    - Tiercel
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  HandyJSON: d0c5fc80204f29056d59d3e5c4587fa0b16b60a8
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
+  Tiercel: 782b409fff7303fba2913f9d979dd4c64901fc9d
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+
+PODFILE CHECKSUM: d688eea98a10671d50b11aab59ec2146eefade68
+
+COCOAPODS: 1.5.3
