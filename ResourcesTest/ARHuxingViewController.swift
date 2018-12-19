@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ARHuxingViewController: UIViewController {
 
     public var test:String = "test"
     
@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
 
     private func getImage(_ name:String) -> UIImage{
-        let currentBundle = Bundle(path: Bundle(for: ViewController.self).path(forResource: "ResourcesTest", ofType: "bundle")!)
+        let currentBundle = Bundle(path: Bundle(for: ARHuxingViewController.self).path(forResource: "ResourcesTest", ofType: "bundle")!)
         return UIImage(contentsOfFile: (currentBundle?.path(forResource: name, ofType: "png"))!)!
     }
 

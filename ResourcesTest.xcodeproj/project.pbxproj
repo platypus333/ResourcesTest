@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B39C96C9A80E85043F2EEC6 /* Pods_ResourcesTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5299088C61D54E3C91E9D6D7 /* Pods_ResourcesTest.framework */; };
 		750B302321CA3981009CBC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B302221CA3981009CBC6D /* AppDelegate.swift */; };
-		750B302521CA3981009CBC6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B302421CA3981009CBC6D /* ViewController.swift */; };
+		750B302521CA3981009CBC6D /* ARHuxingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B302421CA3981009CBC6D /* ARHuxingViewController.swift */; };
 		750B302821CA3981009CBC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750B302621CA3981009CBC6D /* Main.storyboard */; };
 		750B302A21CA3982009CBC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750B302921CA3982009CBC6D /* Assets.xcassets */; };
 		750B302D21CA3982009CBC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750B302B21CA3982009CBC6D /* LaunchScreen.storyboard */; };
@@ -22,7 +22,7 @@
 		5981A63BA9063F9E65741842 /* Pods-ResourcesTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResourcesTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResourcesTest/Pods-ResourcesTest.release.xcconfig"; sourceTree = "<group>"; };
 		750B301F21CA3981009CBC6D /* ResourcesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResourcesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		750B302221CA3981009CBC6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		750B302421CA3981009CBC6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		750B302421CA3981009CBC6D /* ARHuxingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHuxingViewController.swift; sourceTree = "<group>"; };
 		750B302721CA3981009CBC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		750B302921CA3982009CBC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		750B302C21CA3982009CBC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				750B302221CA3981009CBC6D /* AppDelegate.swift */,
-				750B302421CA3981009CBC6D /* ViewController.swift */,
+				750B302421CA3981009CBC6D /* ARHuxingViewController.swift */,
 				750B303621CA3F3A009CBC6D /* ResourcesTest.bundle */,
 				750B302621CA3981009CBC6D /* Main.storyboard */,
 				750B302921CA3982009CBC6D /* Assets.xcassets */,
@@ -214,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				750B302521CA3981009CBC6D /* ViewController.swift in Sources */,
+				750B302521CA3981009CBC6D /* ARHuxingViewController.swift in Sources */,
 				750B302321CA3981009CBC6D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

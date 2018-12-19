@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ResourcesTest"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "ResourcesTestSummary"
   s.description  = <<-DESC
 	ResourcesTestDescription
@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "11.0"
   s.source       = { :git => "https://github.com/platypus333/ResourcesTest.git", :tag => "#{s.version}" }
   s.source_files  = "ResourcesTest/**/*.swift"
+ s.exclude_files  = "ResourcesTest/AppDelegate.swift"
   s.swift_version = "4.2"
   s.dependency "Alamofire"
   s.dependency "SnapKit"
