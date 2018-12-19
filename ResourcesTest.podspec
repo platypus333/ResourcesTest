@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author             = { "platypus333" => "qtinghao@163.com" }
   s.platform     = :ios, "11.0"
   s.source       = { :git => "https://github.com/platypus333/ResourcesTest.git", :tag => "#{s.version}" }
-  s.source_files  = "ARHuxing/**/*.swift"
+  s.source_files  = "ResourcesTest/**/*.swift"
   s.swift_version = "4.2"
   s.dependency "Alamofire"
   s.dependency "SnapKit"
