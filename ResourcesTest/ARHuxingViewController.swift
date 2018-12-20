@@ -10,8 +10,8 @@ import UIKit
 
 public class ARHuxingViewController: UIViewController {
     
-    public var test:String = "test"
-    public var completeBack:((String) -> (Void))?
+    @objc public var test:String = "test"
+    @objc public var completeBack:((String) -> (Void))?
 
     override public func viewDidLoad() {
         super.viewDidLoad()
@@ -24,14 +24,14 @@ public class ARHuxingViewController: UIViewController {
         imageView.addGestureRecognizer(tap)
     }
     
-    var resourcesTestBundle: Bundle{
+    @objc var resourcesTestBundle: Bundle{
         let frameworkBundle = Bundle(for: ARHuxingViewController.self)
         let bundleUrl = frameworkBundle.resourceURL?.appendingPathComponent("ResourcesTest.bundle")
         let resourceBundle = Bundle(url: bundleUrl!)
         return resourceBundle!
     }
     
-    var arrowImage: UIImage{
+    @objc var arrowImage: UIImage{
         let image = UIImage(named: "add_icon@2x", in: resourcesTestBundle, compatibleWith: nil)
         return image!
     }
